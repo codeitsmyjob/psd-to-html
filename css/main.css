@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Regular.eot');
+    src: url('../fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OpenSans-Regular.woff2') format('woff2'),
+        url('../fonts/OpenSans-Regular.woff') format('woff'),
+        url('../fonts/OpenSans-Regular.ttf') format('truetype'),
+        url('../fonts/OpenSans-Regular.svg#OpenSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #282828;
+    font-size: 16px;
+}
+
+.header {
+    background: #f0f2f8;
+    padding-top: 47px;
+    padding-bottom: 90px;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1390px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.nav {
+    display: flex;
+    padding-left: 3%;
+    padding-right: 3%;
+    align-items: center;
+}
+
+.logo {
+    width: 84px;
+}
+
+.phone {
+    margin-left: auto;
+}
+
+.phone a {
+    color: #282828;
+    text-decoration: none;
+    
+}
+
+.email {
+    margin-left: 67px;
+}
+
+.email a {
+    color: #282828;
+    text-decoration: none;
+}
+
+.header-content {
+    margin-top: 85px;
+}
+
+.offer {
+    width: 470px;
+    position: absolute;
+    left: 972px;
+    top: 100px;
+}
+
+.offer h1 {
+    font-size: 70px;
+    font-family: 'Times New Roman', serif;
+    font-weight: normal;
+    line-height: 1.05em;
+    margin-bottom: 40px;
+}
+
+.offer p {
+    color: #000;
+    font-size: 18px;
+    width: 355px;
+    line-height: 1.7em;
+    margin-left: 102px;
+}
+
+.btn {
+    color: #e42f44;
+    font-size: 15px;
+    background: none;
+    border: none;
+    width: 210px;
+    display: flex;
+    align-items: center;
+    margin-left: 102px;
+    margin-top: 32px;
+}
+
+.btn .arrow {
+    color: #e42f44;
+    border: 1px solid #e42f44;
+    width: 50px;
+    height: 50px;
+    display: block;
+    border-radius: 50%;
+    line-height: 50px;
+    margin-right: 20px;
+}
+
+.added {
+    margin-top: 60px;
+}
+
+.add-text {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.08em;
+    margin-left: auto;
+    display: block;
+    width: 370px;
+}
+
+.add-text:before {
+    content:'';
+    width: 55px;
+    height: 1px;
+    display: block;
+    background: #e42f44;
+    position: absolute;
+    margin-left: -100px;
+    margin-top: 7px;
+}
