@@ -1,0 +1,40 @@
+doctype html
+html(lang='ru')
+  head
+    meta(charset='UTF-8')
+    title Itta Мебель
+    // Подключение favicon
+    link(rel='shortcut icon', href='assets/img/favicon.png', type='image/x-icon')
+    link(rel='apple-touch-icon', href='assets/img/favicon.png', sizes='50x50')
+    link(rel='apple-touch-icon', sizes='72x72', href='assets/img/favicon.png')
+    link(rel='apple-touch-icon', sizes='114x114', href='assets/img/favicon.png')
+    // Подключение CSS
+    //link(rel='stylesheet', href='../../assets/css/normalize.css')
+    //link(rel='stylesheet', href='../../assets/css/main.css')
+  body
+    header.header
+      .nav
+        img.logo(src='assets/img/logo.svg', alt='Itta')
+        p.phone
+          a(href='tel:+79062202004')
+            | +7 (906) 220-20-04
+        p.email
+          a(href='mailto:zakaz@itta-mebel.ru')
+            | zakaz@itta-mebel.ru
+      .header-content
+        .container
+          .pic
+            img(src='assets/img/offer-pic1.jpg', alt='')
+          .offer
+            h1
+              | Высокие технологии комфорта
+            p
+              | Производство и монтаж мебели от идеи
+              | до ввода в эксплуатацию
+            button.btn
+              span.arrow →
+              span Оставить заявку
+      .added
+        .container
+          p.add-text
+            | Мебель по индивидуальному проекту
