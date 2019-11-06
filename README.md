@@ -1,4 +1,4 @@
-#  Project psd-html.
+#  Project psd-to-html.
 
 ###  Simple one page website to practise HTML and CSS skills.
 
