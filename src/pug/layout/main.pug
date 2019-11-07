@@ -1,20 +1,17 @@
-include ../utils/mixins
-block variables
+//- include ../utils/mixins
 
 doctype html
-html(lang='en')
+html(lang='ru')
   head
-    meta(charset='utf-8')
-    title #{title}
-    meta(name="description", content=description)
-    block head
-
-  body(class=pageClass)
-    .wrapper
-      #app
-        include ../includes/modules/header
-        .content-wrapper
-          block content
-        include ../includes/modules/footer
-
-    block script
+    meta(charset='UTF-8')
+    title Itta Мебель
+    // Подключение favicon
+    link(rel='shortcut icon', href='assets/img/favicon.png', type='image/x-icon')
+    link(rel='apple-touch-icon', href='assets/img/favicon.png', sizes='50x50')
+    link(rel='apple-touch-icon', sizes='72x72', href='assets/img/favicon.png')
+    link(rel='apple-touch-icon', sizes='114x114', href='assets/img/favicon.png')
+  body
+    header.header
+      include ../includes/modules/header
+      block content
+      include ../includes/modules/footer
