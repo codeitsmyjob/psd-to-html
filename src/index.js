@@ -2,10 +2,10 @@
 import './js/'
 
 // SCSS
-//import './assets/scss/main.scss'
+import './assets/scss/main.scss'
 
 // CSS (example)
-import './assets/css/main.css'
+//import './assets/css/main.css'
 import './assets/css/normalize.css'
 
 // // Vue.js
