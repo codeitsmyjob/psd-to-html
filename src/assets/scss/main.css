@@ -131,4 +131,32 @@ h1, h2, h3, h4, h5, h6, p {
   margin-left: -100px;
   margin-top: 7px;
 }
+
+.container_2 {
+  max-width: 1390px;
+  margin: 0 auto;
+  position: relative;
+  background-color: white;
+}
+
+.add-text_2 {
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 0.08em;
+  margin-left: auto;
+  display: block;
+  width: 1300px;
+  height: 1500px;
+}
+
+.add-text_2:before {
+  content: '';
+  width: 55px;
+  height: 1px;
+  display: block;
+  background: #e42f44;
+  position: absolute;
+  margin-left: -100px;
+  margin-top: 7px;
+}
 /*# sourceMappingURL=main.css.map */
